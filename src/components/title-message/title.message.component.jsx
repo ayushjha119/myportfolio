@@ -2,6 +2,7 @@ import React from 'react';
 import Typewriter from "typewriter-effect";
 import styled from "styled-components";
 
+
 const MyTitleMessage = styled.h1`
   position: absolute;
   width: 100%;
@@ -22,8 +23,11 @@ const MyTitleMessage = styled.h1`
       font-size: 50px;
     }
     .sub {
-      font-size: 27px;
+      font-size: 0.9em;
+      
       letter-spacing: 2px;
+      
+      
     }
   }
 `;

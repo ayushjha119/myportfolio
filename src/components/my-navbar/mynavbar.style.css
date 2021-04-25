@@ -1,11 +1,11 @@
 .logo {
-    width: 10%;
-    height: 10%;
+    width: 15%;
+    height: 15%;
   }
   
   .nav-theme {
     background-color: #101018f8;
-    font-size: 12px;
+    font-size: 1.25em;
     padding: 0 1rem;
   }
   
