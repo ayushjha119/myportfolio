@@ -53,7 +53,7 @@ const Skills = () => {
               </Card.Body>
             </Card>
 
-            {/* Hosting Platforms */}
+         
             <Card className="focus mt-2 mb-2 ">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Hosting Platforms</Card.Title>
