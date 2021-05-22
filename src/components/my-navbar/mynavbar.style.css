@@ -1,13 +1,12 @@
 .logo {
-    width: 15%;
-    height: 15%;
-  }
-  
-  .nav-theme {
-    background-color: #101018f8;
-    font-size: 1.25em;
-    padding: 0 1rem;
-  }
+  width: 25%;
+}
+
+.nav-theme {
+  background-color: #101018e3;
+  font-size: 20px;
+}
+
   
   .animate-navbar {
     box-shadow: 1px 1px 1px #222;
@@ -22,3 +21,5 @@
       transform: translateY(0rem);
     }
   }
+
+  

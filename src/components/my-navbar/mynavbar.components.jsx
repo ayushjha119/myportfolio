@@ -9,12 +9,8 @@ import './mynavbar.style.css';
 const MyNavbar = () => {
     return (
         <>
-            <Navbar fixed="top" collapseOnSelect
-           
-        variant="dark"
-        
-        expand="md"
-        className="animate-navbar nav-theme justify-content-between">
+            <Navbar fixed="top" collapseOnSelect expand="md " variant="dark" className="animate-navbar nav-theme justify-content-between">
+
   <Navbar.Brand href="#home">
   <img className="logo" src={Logo} alt='My portfolio logo' />
   </Navbar.Brand>
@@ -31,9 +27,10 @@ const MyNavbar = () => {
     </Nav>
   
   </Navbar.Collapse>
+
 </Navbar>
         </>
-    )
-}
+    );
+};
 
-export default MyNavbar
+export default MyNavbar;

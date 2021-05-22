@@ -22,10 +22,11 @@ import './App.css';
 
 const App = () =>  {
   return (
-    <div style={{ position: "relative" }}>
-    <MyNavbar/>
+    <div className="App" style={{ position: "relative" }}>
+    
     <MyCarousel/>
     <TitleMessage/>
+    <MyNavbar/>
 
     <Particles className="particles particles-box" params={particlesOptions} />
 
