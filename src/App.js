@@ -14,8 +14,8 @@ import Skills from './pages/skills/skills.component';
 import Experience from './pages/experience/experience.component'
 import Contact from './pages/contact-form/contact.form.component'
 import Footer from './components/footer/footer.component'
-import Particles from "react-particles-js";
-import { particlesOptions } from "./particlesOptions";
+// import Particles from "react-particles-js";
+// import { particlesOptions } from "./particlesOptions";
 
 
 import './App.css';
@@ -28,7 +28,7 @@ const App = () =>  {
     <TitleMessage/>
     <MyNavbar/>
 
-    <Particles className="particles particles-box" params={particlesOptions} />
+    {/* <Particles className="particles particles-box" params={particlesOptions} /> */}
 
     <div>
         <Parallax

@@ -3,6 +3,8 @@ html {
 }
 body {
   margin: 0;
+  /* margin-left: 10%;
+  margin-right: 10%; */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -16,7 +18,7 @@ body {
     #27a4a8 48%,
     #85df51 100%
   );
-  /* Add the blur effect */
+ 
 
   /* Full height */
   height: 100%;

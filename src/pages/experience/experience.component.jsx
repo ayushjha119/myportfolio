@@ -20,18 +20,20 @@ const Experience = () => {
               </Card.Header>
               <Card.Body className="d-flex justify-content-center flex-column">
                 <div>
-                  <Card.Title className="text-center">Advanced Mathematics Expert</Card.Title>
+                  <Card.Title className="text-center"><span id="title">Advanced Mathematics Expert</span></Card.Title>
                 </div>
                 <div>
                   <Card.Text className="text-center style">
-                    <strong className="body-title-style ">Managed network expert</strong>
+                    <strong className="body-title-style "><span id="sub-title">Managed network expert</span></strong>
                     <br />
+                    <span id="subject-font">
                     <strong>Subject:</strong> Advanced Mathematics
                     <br />
                     <strong>Duration:</strong> September 2020 - Present
                     <br/>
                     <strong> Description </strong>
-                    <ul className="text-left">
+                    </span>
+                    <ul id ="font-small" className="text-left">
                       <li><strong>Solved 500+ </strong> Advanced Mathematics question.</li>
                       
                       <li>Current <strong>CF score</strong> is more than 95%. 

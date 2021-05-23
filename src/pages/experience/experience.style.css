@@ -1,5 +1,5 @@
 .img-resize {
-    width: 10em;
+    width: 8em;
   }
   
   .style {
@@ -8,9 +8,22 @@
   
   .jumbo-style {
     background-image: linear-gradient(-225deg, #646250 0%, #26b926 48%, #b12eaa70 100%);
+    
   }
   
   .body-title-style {
     font-size: 25px;
     font-weight: 800;
+  }
+  #title {
+    font-size: 1.5rem;
+  }
+  #sub-title {
+    font-size: 1.3rem;
+  }
+  #font-small {
+    font-size: 0.9rem;
+  }
+  #subject-font {
+    font-size: 1rem;
   }
